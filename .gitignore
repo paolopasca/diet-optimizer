@@ -1,0 +1,16 @@
+# Database alimenti CREA: NON ridistribuito. Lo genera l'utente in locale
+# con scripts/build_db_from_crea.py (vedi data/README.md).
+data/foods.json
+data/foods_seed_backup.json
+
+# Output generati (piani, deck, immagini)
+*.pptx
+*.pdf
+/tmp/
+dieta_img/
+
+# Python
+__pycache__/
+*.pyc
+.DS_Store
+~$*

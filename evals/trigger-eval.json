@@ -1,0 +1,27 @@
+{
+  "skill": "dieta",
+  "note": "Casi limite per il triggering. should=true deve attivare la skill, should=false no.",
+  "queries": [
+    {"q": "Fammi la dieta", "should": true},
+    {"q": "Mi prepari un piano alimentare per dimagrire?", "should": true},
+    {"q": "Dammi un meal plan da 2000 kcal", "should": true},
+    {"q": "Quanti grammi di pollo e riso devo mangiare per fare 700 kcal e 50g di proteine?", "should": true},
+    {"q": "Voglio un menù settimanale per la palestra, fase di massa", "should": true},
+    {"q": "Ricalcola la mia dieta togliendo i latticini", "should": true},
+    {"q": "Cosa mangio a cena per arrivare a 150g di proteine oggi?", "should": true},
+    {"q": "Aggiusta i grammi della mia colazione per fare 500 kcal con 30g di proteine", "should": true},
+    {"q": "Il mio metabolismo basale è 1700 kcal, dammi un piano per definizione", "should": true},
+    {"q": "Dammi i macro di una giornata da 2500 kcal divisa in 4 pasti", "should": true},
+
+    {"q": "Quante calorie ha una mela?", "should": false},
+    {"q": "Quante proteine ci sono in 100g di petto di pollo?", "should": false},
+    {"q": "Fa bene la dieta chetogenica?", "should": false},
+    {"q": "Il digiuno intermittente funziona davvero?", "should": false},
+    {"q": "Qual è la differenza tra carboidrati semplici e complessi?", "should": false},
+    {"q": "Consigliami un ristorante per stasera", "should": false},
+    {"q": "Quanto devo correre per bruciare 500 kcal?", "should": false},
+    {"q": "Scrivimi una ricetta per la carbonara", "should": false},
+    {"q": "Quanti grammi pesa un uovo medio?", "should": false},
+    {"q": "Devo prendere integratori di proteine?", "should": false}
+  ]
+}

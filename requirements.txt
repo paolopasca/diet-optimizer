@@ -1,0 +1,5 @@
+scipy>=1.11
+numpy>=1.24
+# solo per il deck PowerPoint (make_pptx.py) e le immagini:
+python-pptx>=0.6.23
+Pillow>=10.0

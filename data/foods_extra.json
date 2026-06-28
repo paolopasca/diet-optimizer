@@ -1,0 +1,9 @@
+{
+  "note": "Alimenti NON presenti nelle tabelle CREA (prodotti commerciali o ricette personali). Valori da etichetta tipica / stima dichiarata. Vengono uniti a foods.json da build_db_from_crea.py. Sostituibili con i valori esatti del proprio brand.",
+  "foods": [
+    {"name": "Piadina romagnola (da etichetta)", "category": "Cereali e derivati", "crea_id": "X-PIAD", "non_crea": true,
+     "per100g": {"kcal": 290, "protein_g": 8.0, "carb_g": 48.0, "fat_g": 8.0, "fiber_g": 2.0}},
+    {"name": "Macinato di bovino magro (~5% grassi)", "category": "Carni fresche", "crea_id": "X-MACIN", "non_crea": true,
+     "per100g": {"kcal": 137, "protein_g": 21.0, "carb_g": 0.0, "fat_g": 5.5, "fiber_g": 0.0}}
+  ]
+}

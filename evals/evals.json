@@ -1,0 +1,20 @@
+{
+  "skill": "dieta",
+  "cases": [
+    {
+      "id": "eval-0",
+      "name": "macro espliciti, giornata 3 pasti",
+      "prompt": "Fammi una dieta da 2200 kcal con 165 g di proteine, 220 g di carboidrati e 70 g di grassi, divisa in colazione, pranzo e cena. Cucina italiana, niente maiale. Dimmi i grammi esatti di ogni alimento e i totali."
+    },
+    {
+      "id": "eval-1",
+      "name": "da BMR, obiettivo massa",
+      "prompt": "Il mio metabolismo basale a riposo e' circa 1750 kcal, mi alleno 4 volte a settimana (attivita' moderata), voglio mettere massa e peso 80 kg. Dammi un piano alimentare per una giornata con colazione, pranzo, cena e uno spuntino, grammi e macro totali."
+    },
+    {
+      "id": "eval-2",
+      "name": "singolo pasto, target esatto",
+      "prompt": "Quanti grammi di petto di pollo, riso basmati e olio extravergine devo mangiare a pranzo per fare esattamente 800 kcal con 60 g di proteine? Dimmi anche carbo e grassi risultanti."
+    }
+  ]
+}
