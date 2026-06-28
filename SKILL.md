@@ -81,6 +81,18 @@ derivazione (TDEE, aggiustamento obiettivo) così sa da dove vengono le kcal.
 Default usati (modificabili da flag, vedi `references/formulation.md`):
 proteine 1.8 g/kg, grassi 25% kcal (min 0.8 g/kg), carbo = resto, fibra ≥ 28 g.
 
+**Taratura del fabbisogno** (applicala, non assumere e basta):
+- Se l'utente dà un **BMR molto sopra la stima Mifflin** (per un uomo 70 kg/
+  179 cm è ~1550-1600), **segnalalo**: può essere gonfiato (device, confusione
+  con il TDEE). Usa il suo numero ma con un taglio prudente.
+- **Sport/ricomposizione**: proteine 1.8-2.2 g/kg e **carboidrati più alti**
+  (l'atleta li usa come carburante: punta al 45-55% delle kcal, grassi ~25%),
+  non spostare verso i grassi solo per ridurre il volume.
+- Di' all'utente di **pesarsi 2 settimane** allo stesso orario e aggiustare
+  ~±150 kcal sul trend: peso stabile = sei a target; sale → togli; scende → aggiungi.
+- Il sodio alto NON è un problema di salute per un atleta normoteso, ma dà
+  ritenzione idrica estetica e temporanea (vedi sezione Sodio).
+
 ### Step 2 — Scegli i cibi e costruisci lo spec
 
 Apri `data/foods.json` (832 alimenti dalle tabelle CREA ufficiali, valori per
